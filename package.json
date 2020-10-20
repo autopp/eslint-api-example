@@ -1,0 +1,21 @@
+{
+  "name": "eslint-api-example",
+  "version": "1.0.0",
+  "description": "example of eslint api",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "autopp",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/eslint": "^7.2.4",
+    "@types/node": "^14.14.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "eslint": "^7.12.1"
+  }
+}
